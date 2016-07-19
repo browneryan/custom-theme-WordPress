@@ -9,7 +9,7 @@
 
   </head>
 
-  <body>
+  <body <?php body_class(); ?>>
     <header class="row no-max pad main">
   <h1><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
   <a href="" class="nav-toggle"><span></span>Menu</a>
